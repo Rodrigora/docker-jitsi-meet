@@ -15,6 +15,11 @@ services:
             - ENABLE_LETSENCRYPT
             - ENABLE_HTTP_REDIRECT
             - DISABLE_HTTPS
+            - ENABLE_TOKEN_AUTH
+            - APP_ID
+            - APP_SECRET
+            - ACCEPTED_ISSUERS
+            - ACCEPTED_AUDIENCES
             - JICOFO_AUTH_USER
             - LETSENCRYPT_DOMAIN
             - LETSENCRYPT_EMAIL

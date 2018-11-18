@@ -1,0 +1,3 @@
+[submodule "prosody/git-modules/jitsi-meet"]
+	path = prosody/git-modules/jitsi-meet
+	url = https://github.com/jitsi/jitsi-meet.git
